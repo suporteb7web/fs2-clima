@@ -81,7 +81,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §3.3.1, §3.4, §4.2, §4.3
 
-- [ ] Implementar `searchCity(cityName: string)` em `src/services/openMeteo.ts`.
+- [x] Implementar `searchCity(cityName: string)` em `src/services/openMeteo.ts`.
 
 **Critérios de aprovação:**
 - Valida `cityName` (string não vazia após trim); retorna `null` sem requisição se inválido (§4.2).
@@ -96,7 +96,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §3.3.2, §3.4, §4.2, §4.3
 
-- [ ] Implementar `getWeather(latitude, longitude, timezone)` em `src/services/openMeteo.ts`.
+- [x] Implementar `getWeather(latitude, longitude, timezone)` em `src/services/openMeteo.ts`.
 
 **Critérios de aprovação:**
 - Valida parâmetros obrigatórios; retorna `null` sem requisição se ausentes/inválidos (§4.2).
@@ -111,7 +111,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §3.4, §4.1, §4.3
 
-- [ ] Implementar `searchWeather(cityName: string)` em `src/services/openMeteo.ts`, orquestrando geocoding → forecast.
+- [x] Implementar `searchWeather(cityName: string)` em `src/services/openMeteo.ts`, orquestrando geocoding → forecast.
 
 **Critérios de aprovação:**
 - Chama `searchCity` e, se sucesso, `getWeather` com lat/lon/timezone retornados.
