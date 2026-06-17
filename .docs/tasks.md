@@ -159,7 +159,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.2, §2.1 (passos 2–3)
 
-- [ ] Conectar input e botão de busca em `main.ts`.
+- [x] Conectar input e botão de busca em `main.ts`.
 
 **Critérios de aprovação:**
 - Placeholder conforme §2.2 (ex.: "Digite o nome da cidade").
@@ -173,7 +173,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.1, §2.3, §4.1
 
-- [ ] Implementar máquina de estados da UI em `main.ts`.
+- [x] Implementar máquina de estados da UI em `main.ts`.
 
 **Critérios de aprovação:**
 - Estado inicial é **empty** (§2.3).
@@ -187,7 +187,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.3, §5.5
 
-- [ ] Implementar visual do estado vazio.
+- [x] Implementar visual do estado vazio.
 
 **Critérios de aprovação:**
 - Exibido no carregamento inicial e após busca sem resultado (§5.5).
@@ -201,7 +201,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.3, §5.6
 
-- [ ] Implementar visual do estado de carregamento.
+- [x] Implementar visual do estado de carregamento.
 
 **Critérios de aprovação:**
 - Indicador de carregamento visível (spinner ou skeleton) durante `searchWeather` (§5.6).

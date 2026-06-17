@@ -24,7 +24,16 @@
       </header>
 
       <main class="weather-card" id="weather-card">
-        <div class="card-content" id="card-content">
+        <div class="empty-state" id="empty-state">
+          <p class="empty-state-message">Pesquise uma cidade para ver o clima</p>
+        </div>
+
+        <div class="loading-state is-hidden" id="loading-state" aria-live="polite" aria-busy="true">
+          <div class="loading-spinner" aria-hidden="true"></div>
+          <p class="loading-message">Buscando clima...</p>
+        </div>
+
+        <div class="card-content is-hidden" id="card-content">
           <aside class="sidebar" id="sidebar">
             <p class="sidebar-temperature" id="sidebar-temperature"></p>
             <p class="sidebar-location" id="sidebar-location"></p>
