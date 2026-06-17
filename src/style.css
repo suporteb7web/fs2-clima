@@ -171,12 +171,25 @@ body {
 
 .sidebar-location,
 .sidebar-date,
-.sidebar-daynight,
 .sidebar-condition {
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.sidebar-daynight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.daynight-icon {
+  flex-shrink: 0;
 }
 
 .sidebar-location {
@@ -210,4 +223,28 @@ body {
 .metric-value {
   font-size: 1.125rem;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 24px 16px;
+  }
+
+  .weather-card {
+    padding: 24px 16px;
+  }
+
+  .card-content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .sidebar {
+    flex: none;
+    width: 100%;
+  }
+
+  .main-area {
+    width: 100%;
+  }
 }

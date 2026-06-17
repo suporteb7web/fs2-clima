@@ -217,7 +217,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.4 (sidebar), §4.4
 
-- [ ] Preencher sidebar com dados do resultado.
+- [x] Preencher sidebar com dados do resultado.
 
 **Critérios de aprovação:**
 - **Temperatura** em destaque (fonte maior, bold) com unidade de `current_units` (§5.3).
@@ -232,7 +232,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.4 (área principal), §2.6, §5.4
 
-- [ ] Preencher área principal com métricas do resultado.
+- [x] Preencher área principal com métricas do resultado.
 
 **Critérios de aprovação:**
 - Quatro itens com label + valor: Umidade, Sensação térmica, Precipitação, Vento (§5.4).
@@ -246,7 +246,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §5.7
 
-- [ ] Ajustar layout para mobile.
+- [x] Ajustar layout para mobile.
 
 **Critérios de aprovação:**
 - Desktop (> ~768px): sidebar à esquerda, área principal à direita.
@@ -259,7 +259,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.4 (Dia/Noite), §5.3, §3.5 (`assets/`)
 
-- [ ] Adicionar ícones de sol e lua em `src/assets/` e exibir na sidebar.
+- [x] Adicionar ícones de sol e lua em `src/assets/` e exibir na sidebar.
 
 **Critérios de aprovação:**
 - `is_day === 1` → ícone de sol + texto "Dia".
