@@ -1,9 +1,9 @@
 /** Resposta bruta do endpoint de geocoding (campos utilizados). */
-export interface GeocodingApiResponse {
+export type GeocodingApiResponse = {
   results?: GeocodingResult[]
 }
 
-export interface GeocodingResult {
+export type GeocodingResult = {
   name: string
   latitude: number
   longitude: number
@@ -12,7 +12,7 @@ export interface GeocodingResult {
 }
 
 /** Dados atuais do forecast (campos obrigatórios + weather_code). */
-export interface WeatherCurrent {
+export type WeatherCurrent = {
   temperature_2m: number
   relative_humidity_2m: number
   apparent_temperature: number
@@ -24,7 +24,7 @@ export interface WeatherCurrent {
   precipitation: number
 }
 
-export interface WeatherCurrentUnits {
+export type WeatherCurrentUnits = {
   temperature_2m: string
   relative_humidity_2m: string
   apparent_temperature: string
@@ -36,18 +36,18 @@ export interface WeatherCurrentUnits {
 }
 
 /** Resposta do endpoint de forecast (campos utilizados). */
-export interface WeatherApiResponse {
+export type WeatherApiResponse = {
   current?: WeatherCurrent
   current_units?: WeatherCurrentUnits
 }
 
-export interface WeatherResult {
+export type WeatherResult = {
   current: WeatherCurrent
   current_units: WeatherCurrentUnits
 }
 
 /** Dados combinados de geocoding + forecast para a UI. */
-export interface CombinedWeatherData {
+export type CombinedWeatherData = {
   name: string
   country_code: string
   timezone: string
