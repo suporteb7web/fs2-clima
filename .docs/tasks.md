@@ -127,7 +127,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.2, §5.1, §5.3, §5.4
 
-- [ ] Atualizar `index.html` e/ou `main.ts` com a estrutura DOM da aplicação.
+- [x] Atualizar `index.html` e/ou `main.ts` com a estrutura DOM da aplicação.
 
 **Critérios de aprovação:**
 - Área de busca (input + botão) fora e acima do card principal (§5.1).
@@ -142,7 +142,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §5.1, §5.2, §5.8
 
-- [ ] Implementar estilos base em `src/style.css`.
+- [x] Implementar estilos base em `src/style.css`.
 
 **Critérios de aprovação:**
 - Fundo da página em cinza escuro; área de busca sem background próprio (§5.2).

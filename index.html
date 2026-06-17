@@ -1,13 +1,59 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>clima</title>
+    <title>Clima</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app" class="app">
+      <header class="search-area">
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            id="city-input"
+            class="search-input"
+            placeholder="Digite o nome da cidade"
+            autocomplete="off"
+          />
+          <button type="submit" id="search-button" class="search-button">
+            Buscar
+          </button>
+        </form>
+      </header>
+
+      <main class="weather-card" id="weather-card">
+        <div class="card-content" id="card-content">
+          <aside class="sidebar" id="sidebar">
+            <p class="sidebar-temperature" id="sidebar-temperature"></p>
+            <p class="sidebar-location" id="sidebar-location"></p>
+            <p class="sidebar-date" id="sidebar-date"></p>
+            <p class="sidebar-daynight" id="sidebar-daynight"></p>
+            <p class="sidebar-condition" id="sidebar-condition"></p>
+          </aside>
+
+          <section class="main-area" id="main-area">
+            <div class="metric" id="metric-humidity">
+              <span class="metric-label">Umidade</span>
+              <span class="metric-value" id="humidity-value"></span>
+            </div>
+            <div class="metric" id="metric-apparent-temperature">
+              <span class="metric-label">Sensação térmica</span>
+              <span class="metric-value" id="apparent-temperature-value"></span>
+            </div>
+            <div class="metric" id="metric-precipitation">
+              <span class="metric-label">Precipitação</span>
+              <span class="metric-value" id="precipitation-value"></span>
+            </div>
+            <div class="metric" id="metric-wind">
+              <span class="metric-label">Vento</span>
+              <span class="metric-value" id="wind-value"></span>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
