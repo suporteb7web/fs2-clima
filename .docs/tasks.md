@@ -274,7 +274,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §6 (Critérios de aceite)
 
-- [ ] Percorrer a checklist completa da §6 do PRD e corrigir lacunas.
+- [x] Percorrer a checklist completa da §6 do PRD e corrigir lacunas.
 
 **Critérios de aprovação:**
 - Todos os itens da §6 do PRD estão atendidos.
